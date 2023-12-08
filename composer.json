@@ -1,0 +1,23 @@
+{
+    "name": "renzomedina/api_dog",
+    "description": "Creación de api basico con datos de perros para ejecutar en REACT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Renzo Medina",
+            "email": "medinast30@gmail.com"
+        }
+        
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/",
+            "Core\\":"Core/",
+            "Database\\":"Database/",
+            "Routes\\":"Routes/"
+        }
+    },
+    "require": {
+        "mikecao/flight": "^2.0"
+    }
+}
