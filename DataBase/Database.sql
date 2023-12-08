@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS dog(
     `id` INT AUTO_INCREMENT PRIMARY KEY,
     `breed` VARCHAR(50)NOT NULL,
     `origin` VARCHAR(70)NOT NULL,
-    `max-age` INT NOT NULL,
+    `max_age` INT NOT NULL,
     `description` TEXT NOT NULL,
     `create_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     `update_at` TIMESTAMP
