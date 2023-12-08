@@ -1,11 +1,11 @@
 <?php 
 
 namespace App\Controller;
-
+use DataBase\QueryBuilder;
 
 class DogController{
 
     public function index(){
-     echo "Hola soy el index";
+        $con = (new QueryBuilder);
     }
 }
